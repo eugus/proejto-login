@@ -4,12 +4,15 @@
 
     body {
         background-image: linear-gradient(to top, #DBF227, #D6D58E);
+        width: 100vw;
+        height: 100vh;
     }
 
 
 
     section#login {
-        width: 80vw;
+        width: 50vw;
+        height: 50vh;
 
     }
     
@@ -27,7 +30,9 @@
 
 @media screen and (min-width: 992px) {
     section#login {
-        width: 950px;
+        width: 60vw;
+        height: 70vh;
+        
     }
 
     section#login > div#imagem {
